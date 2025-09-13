@@ -1,0 +1,9 @@
+[build]
+  base = "qfvjug-website"
+  command = "pnpm run build"
+  publish = "qfvjug-website/dist"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+

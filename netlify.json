@@ -1,0 +1,9 @@
+```json
+{
+  "build": {
+    "command": "cd client && npm run build",
+    "directory": "client/build"
+  }
+}
+```
+

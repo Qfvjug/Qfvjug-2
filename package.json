@@ -1,25 +1,33 @@
 {
-  "name": "my-website",
+  "name": "qf-project",
   "version": "0.1.0",
-  "homepage": "https://www.example.com/",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.20.0",
-    "react-scripts": "5.0.1",
-    "web-vitals":"^2.1.4"
+    "react-dom": "^18.2.0"
   },
   "scripts": {
-    "start":"react-scripts start",
-    "build":"react-scripts build",
-    "test":"react-scripts test",
-    "eject":"react-scripts eject"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-test-runner"
+  },
+  "eslintConfig": {
+    "extends": ["react-app", "react-app/jest"]
   },
   "browserslist": {
-    ">0.2%",
-    "not dead",
-    "not op_2020.0 and up",
-    "not ie <= 11",
-    "not op_mini all"
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 chrome-canary version",
+      "last 1 edge major version",
+      "last 1 safari major",
+      "last 1  ios_saf major",
+      "last 1  android >=5.0"
+    ]
   }
 }

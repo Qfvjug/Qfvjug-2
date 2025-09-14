@@ -9,8 +9,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "vite build",
     "test": "react-test-runner"
+    "dev": "vite"
+}
+
   },
   "eslintConfig": {
     "extends": ["react-app", "react-app/jest"]

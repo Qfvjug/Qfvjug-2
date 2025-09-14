@@ -2,18 +2,16 @@
   "name": "qf-project",
   "version": "0.1.0",
   "private": true,
- "dependencies": {
+  "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-    "react-scripts": "5.0.1",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
   },
-"scripts": {
+  "scripts": {
     "start": "react-scripts start",
     "build": "vite build",
-    "test": "react-test-runner"
+    "test": "react-test-runner",
     "dev": "vite"
-}
-
   },
   "eslintConfig": {
     "extends": ["react-app", "react-app/jest"]
@@ -30,7 +28,8 @@
       "last 1 chrome-canary version",
       "last 1 edge major version",
       "last 1 safari major",
-      "last 1  ios_saf major",
-      "last 1  android >=5.0"
+      "last 1 ios_saf major",
+      "last 1 android >=5.0"
     ]
   }
+}

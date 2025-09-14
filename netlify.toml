@@ -1,7 +1,6 @@
 [build]
-base = "qfvjug-website"
 command = "npm run build"
-publish = "qfvjug-website/build"   # CRA output dir is "build"
+publish = "build"   # CRA output dir is "build"
 
 [build.environment]
   NODE_VERSION = "18"
